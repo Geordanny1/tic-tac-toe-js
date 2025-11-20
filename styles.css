@@ -1,0 +1,42 @@
+body {
+  font-family: initial;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0; 
+}
+
+li {
+  cursor: pointer;
+  border-radius: 0.5px;
+  margin: 2rem;
+  list-style: none;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid black;
+}
+
+li {
+  text-align: center;
+  font-size: 7rem;
+}
+
+.bg-red {
+  background-color: red;
+}
+.bg-purple {
+  background-color: rebeccapurple;
+}
